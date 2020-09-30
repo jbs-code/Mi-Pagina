@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, section, footer, nav, article, figure, figcaption
+{
+    display: block;
+}
+
+body{
+    font-family: 'Amatic SC', cursive;
+}
+
+header{
+    width: 100%;    
+    float: left;
+    padding: 10px;
+    background-color:  #d5e8dc;
+}
+
+h1.titulo{
+    float: left;
+}
+
+.menu{
+    float: right;
+    padding: 10px;
+}
+
+.menu li{
+    margin-inline: 5px;
+    padding: 10px;
+    display: inline-block;
+    list-style: none;
+}
