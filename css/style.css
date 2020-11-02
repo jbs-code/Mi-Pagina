@@ -14,7 +14,6 @@ body{
 
 header{
     width: 100%;    
-    float: left;
     padding: 10px;
     background-color:  #d5e8dc;
 }
@@ -26,6 +25,10 @@ h1.titulo{
 .menu{
     float: right;
     padding: 10px;
+}
+
+.recovery{
+    clear: both;
 }
 
 .menu li{
