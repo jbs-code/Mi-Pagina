@@ -10,13 +10,14 @@ header, section, footer, nav, article, figure, figcaption
 
 body{
     font-family: 'Amatic SC', cursive;
+    background-color: #6ae99b;
 }
 
 header{
-    width: 100%;    
-    float: left;
+    width: 960px; 
+    margin: auto;   
     padding: 10px;
-    background-color:  #d5e8dc;
+    background-color:  #b7e96a;
 }
 
 h1.titulo{
@@ -26,6 +27,46 @@ h1.titulo{
 .menu{
     float: right;
     padding: 10px;
+}
+
+.seccion{
+    width: 960px;
+    margin: auto;
+    background-color: #e9db6a;
+}
+
+.miFoto{
+    width: 960px;
+}
+
+.experiencias{
+    margin-top: 20px;
+}
+
+.experiencias figure{
+    width: 25%;
+    float: left;
+    margin: 0 3%;
+}
+
+.marcoImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.experiencias figure img{
+    width: 400px;
+}
+
+.experiencias figure figcaption{
+    text-align: center;
+}
+
+.recovery{
+    clear: both;
 }
 
 .menu li{
