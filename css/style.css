@@ -10,18 +10,41 @@ header, section, footer, nav, article, figure, figcaption
 
 body{
     font-family: 'Amatic SC', cursive;
-    background-color: #6ae99b;
+    color: #2e2e2e;
 }
 
 header{
-    width: 960px; 
+    position:fixed;
+    width: 100%; 
     margin: auto;   
-    padding: 10px;
-    background-color:  #b7e96a;
+    background-color: rgba(213, 238, 204, 0.5);
+    z-index: 2;
+
+}
+
+li a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+
+li a:hover{
+    color:orange;
 }
 
 h1.titulo{
     float: left;
+    padding: 10px;
+}
+
+h1:not(.titulo){
+    margin:60px 0 10px 0;
+    text-align: center;
+    font-size:30px;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 20px;
 }
 
 .menu{
@@ -32,11 +55,10 @@ h1.titulo{
 .seccion{
     width: 960px;
     margin: auto;
-    background-color: #e9db6a;
 }
 
 .miFoto{
-    width: 960px;
+    width: 100%;
 }
 
 .experiencias{
@@ -57,12 +79,21 @@ h1.titulo{
     overflow: hidden
 }
 
-.experiencias figure img{
+img{
     width: 400px;
 }
 
-.experiencias figure figcaption{
+figcaption{
     text-align: center;
+}
+
+.maraton{
+    text-align: center;
+}
+
+.maraton figure .marcoImg{
+    margin:0 5%;
+    float: left;
 }
 
 .recovery{
@@ -75,3 +106,31 @@ h1.titulo{
     display: inline-block;
     list-style: none;
 }
+
+footer{
+    margin: auto;
+    padding: 60px 0;
+    width: 960px;
+    text-align: center;
+}
+
+.experiencias figure > figcaption:hover{
+    color: orange;
+}
+
+.maraton a{
+    margin: 0 auto;
+    width:10%;
+    display: block;
+    text-decoration: none;
+    border:solid #14638b;
+    color: #14638b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.maraton a:hover{
+    border: solid orange;
+    color: orange;
+}
+
