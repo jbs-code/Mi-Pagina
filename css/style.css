@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-header, section, footer, nav, article, figure, figcaption
+header, section, footer, nav, article, figcaption
 {
     display: block;
 }
@@ -63,12 +63,7 @@ h2{
 
 .experiencias{
     margin-top: 20px;
-}
-
-.experiencias figure{
-    width: 25%;
-    float: left;
-    margin: 0 3%;
+    text-align: center;
 }
 
 .marcoImg{
@@ -76,7 +71,12 @@ h2{
     height: 200px;
     margin: 0 auto;
     border-radius: 50%;
-    overflow: hidden
+    overflow: hidden;
+}
+
+.experiencias figure{
+    display: inline-block;
+    width: 25%;
 }
 
 img{
@@ -92,8 +92,8 @@ figcaption{
 }
 
 .maraton figure .marcoImg{
-    margin:0 5%;
-    float: left;
+    display: inline-block;
+    margin: 0 25px;
 }
 
 .recovery{
